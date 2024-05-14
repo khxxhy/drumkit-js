@@ -1,34 +1,59 @@
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-body,html{
-    height: 100%;
-    width: 100%;
-    background-color: blue;
-    background-image: url(./assets/3.jpg);
-    background-size: 90%;
-}
-h1{
-    padding-top: 5vw;
-display: flex;
-justify-content: center;
-color: #f5f6ec;
-font-size: 3vw;
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.keys{
-display: flex;
-height: 50%;
-width: 80%;
-justify-content: center;
-align-items: center;
-gap: 2vw;
+body,html {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  background-image: url(./assets/Gambar\ Latar\ BelakangLatar\ Belakang\ Iklan\ Bunga\ Cantik\ Yang\,\ Latar\ Belakang\ Pengiklanan\,\ Latar\ Belakang\ Kuning\,\ Latar\ Belakang\ Kotak\ Kotak\ Latar\ belakang\ untuk\ Muat\ turun\ Percuma.jpg);
+  background-size: 90%;
 }
 
-.key{
-    border:#101009 solid;
-    padding: 2.5vw;
+h1 {
+  padding-top: 5vw;
+  display: flex;
+  justify-content: center;
+  color:rgb(145, 48, 48);
+  font-size: 3vw;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  gap: 2vw;
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.key {
+  border: #474744 solid 4px;
+  padding: 1vw 2vw;
+  width: 10%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 35px;
+  line-height: 0.8;
+  background-color: antiquewhite;
+  font-weight: 700;
+  transition: all .07s ease;
+}
+
+span{
+    color:rgb(145, 48, 48);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+kbd{
+    display: block;
+    cursor: pointer;
 }
