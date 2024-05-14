@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    background-image: url(./assets/3.jpg);
+    background-size: 90%;
+}
+h1{
+    padding-top: 5vw;
+display: flex;
+justify-content: center;
+color: #f5f6ec;
+font-size: 3vw;
+}
+
+.keys{
+display: flex;
+height: ;
+}
