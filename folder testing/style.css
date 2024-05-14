@@ -21,5 +21,14 @@ font-size: 3vw;
 
 .keys{
 display: flex;
-height: ;
+height: 50%;
+width: 80%;
+justify-content: center;
+align-items: center;
+gap: 2vw;
+}
+
+.key{
+    border:#101009 solid;
+    padding: 2.5vw;
 }
