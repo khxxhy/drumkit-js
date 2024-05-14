@@ -4,7 +4,8 @@
   margin: 0;
 }
 
-body,html {
+body,
+html {
   height: 100%;
   width: 100%;
   background-color: blue;
@@ -16,7 +17,7 @@ h1 {
   padding-top: 5vw;
   display: flex;
   justify-content: center;
-  color:rgb(145, 48, 48);
+  color: rgb(145, 48, 48);
   font-size: 3vw;
 }
 
@@ -35,25 +36,34 @@ h1 {
   border: #474744 solid 4px;
   padding: 1vw 2vw;
   width: 10%;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10%;
   text-align: center;
   font-size: 35px;
   line-height: 0.8;
   background-color: antiquewhite;
   font-weight: 700;
-  transition: all .07s ease;
+  transition: all 0.07s ease;
 }
 
-span{
-    color:rgb(145, 48, 48);
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 900;
+span {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
 }
 
-kbd{
-    display: block;
-    cursor: pointer;
+kbd {
+  display: block;
+  cursor: pointer;
 }
+
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(161, 57, 57);
+    box-shadow: 0 0 1rem  rgb(161, 57, 57);
+    color: rgb(255, 255, 255);
+}
+.sound {
+    color: rgb(145, 48, 48);
+  }
